@@ -48,13 +48,13 @@ func main() {
 
 		addLabel(cimg, 80, 50, "เลขประจำตัวประชาชน", colBlk, 12)
 		addLabel(cimg, 80, 65, "Identification Number", colBlue, 12)
-		addLabel(cimg, 220, 55, "1 2345 67890 12 1", colBlk, 18)
+		addLabel(cimg, 220, 55, "1 2345 _x_x_ xx x", colBlk, 18)
 		addLabel(cimg, 60, 90, "ชื่อตัวและชื่อสกุล", colBlk, 12)
-		addLabel(cimg, 170, 90, "เจ้าพระยา ประยุทธ จานโอชา", colBlk, 18)
+		addLabel(cimg, 170, 90, "นาย ไอรอนแมน อะเวนเจอร์อิฟินิตี้วอร์", colBlk, 18)
 
-		addLabel(cimg, 140, 110, "Name    Mr. Prayuth", colBlue, 12)
-		addLabel(cimg, 140, 130, "Last Name   ChanOCha", colBlue, 12)
-		addLabel(cimg, 160, 150, "เกิดวันที่  19 ต.ค. 2499", colBlk, 12)
+		addLabel(cimg, 140, 110, "Name    Mr. Ironman", colBlue, 12)
+		addLabel(cimg, 140, 130, "Last Name    Avenger Infinity War", colBlue, 12)
+		addLabel(cimg, 160, 150, "เกิดวันที่    19 ต.ค. 2499", colBlk, 12)
 		addLabel(cimg, 160, 170, "Date of Birth    19 Oct. 1956", colBlue, 12)
 
 		addLabel(cimg, 50, 220, "ที่อยู่ 1/11 ราบสิบเอ็ด เขตบางบัว", colBlk, 12)
@@ -113,7 +113,7 @@ func fontface(size float64) font.Face {
 }
 
 func mix(background image.Image) image.Image {
-	image2, err := os.Open("images.jpeg")
+	image2, err := os.Open("ironman.jpg")
 	if err != nil {
 		log.Fatalf("failed to open: %s", err)
 	}
